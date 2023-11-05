@@ -41,7 +41,8 @@ body {
     margin-left: 25px;
 }
 
-h4:hover,i:hover {
+h4:hover,
+i:hover {
     color: aliceblue;
 }
 
@@ -60,8 +61,9 @@ h3 {
     display: inline-block;
     margin: 23px;
 }
-h3:hover{
-    color:white;
+
+h3:hover {
+    color: white;
 }
 
 .library2 {
@@ -82,8 +84,9 @@ h3:hover{
     color: grey;
     border: none;
 }
-button:hover{
-    color:white;
+
+.library2>button:hover {
+    color: white;
 }
 
 .scrolling {
@@ -130,7 +133,7 @@ button:hover{
     border-radius: 60px;
     font-size: small;
     float: left;
-    background-color: grey;
+    background-color: white;
     color: black;
     font-weight: bold;
     height: 40px;
@@ -150,9 +153,11 @@ button:hover{
     color: grey;
     font-size: small;
 }
-li:hover{
+
+li:hover {
     color: white;
 }
+
 li {
     margin: 5px;
 }
@@ -178,7 +183,7 @@ li {
 
 .header {
     overflow-block: none;
-    background-color: #121212;
+    background-color: #1c1c1c;
     width: 940px;
     height: 65px;
     margin: 0px;
@@ -196,9 +201,6 @@ li {
     height: 25px;
     width: 25px;
 }
-button:hover{
-    color:white;
-}
 
 .std {
     display: inline;
@@ -210,9 +212,6 @@ button:hover{
     color: grey;
     font-weight: bold;
     margin: 15px;
-}
-span:hover{
-    color:white;
 }
 
 .std button {
@@ -235,14 +234,16 @@ span:hover{
 }
 
 .content2>a {
-    color: grey;
+    color: white;
     font-size: 24px;
     margin-bottom: 20px;
     display: inline;
 }
-a:hover{
+
+/* .content2>a:hover{
     color:white;
-}
+    text-decoration: underline;
+}  */
 
 #showall {
     color: grey;
@@ -250,8 +251,10 @@ a:hover{
     font-weight: bold;
     margin-right: 25px;
 }
-#showall:hover{
-    color:white;
+
+#showall:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .inner {
@@ -263,19 +266,31 @@ a:hover{
 .box {
     width: 185px;
     height: 280px;
-    background-color: #2e2e2e;
+    background-color: #181818;
     border-radius: 7px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     padding: 10px;
     margin: 20px 20px 0 0;
     display: inline-flexbox;
+}
 
+.box:hover {
+    background-color: #2e2e2e;
+
+}
+
+.box>img {
+    width: 185px;
+    height: 205px;
+    margin-bottom: 5px;
+    border-radius: 7px;
 }
 
 .end {
     font-size: 15px;
+    text-decoration: none;
 }
 
 .nav-foot {
@@ -294,6 +309,11 @@ span {
     margin: 10px 0px;
 }
 
+span:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .nav-foot ul {
     display: inline-block;
     margin: 0 55px 100px 0;
@@ -310,8 +330,12 @@ span {
     color: white;
     border: none;
     border-radius: 40px;
-    font-size: large;
-    height: 30px;
+    font-size: x-large;
+    height: 35px;
+}
+
+.icons>button:hover {
+    background-color: grey;
 }
 
 hr {
@@ -320,11 +344,14 @@ hr {
 
 nav {
     margin: 50px 30px;
-    color:grey;
+    color: grey;
 }
-nav:hover{
-    color:white;
+
+nav:hover {
+    color: white;
+
 }
+
 .footer {
     height: 78px;
     width: auto;
