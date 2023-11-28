@@ -22,6 +22,7 @@ body {
     border-radius: 9px;
     grid-row-start: 1;
     grid-row-end: 3;
+    cursor:pointer;
 }
 
 .home>img {
@@ -144,6 +145,7 @@ h3:hover {
 .topy {
     width: fit-content;
     height: fit-content;
+    cursor:pointer;
 }
 
 .topy>ul {
@@ -250,6 +252,8 @@ li {
     float: right;
     font-weight: bold;
     margin-right: 25px;
+    cursor:pointer;
+   
 }
 
 #showall:hover {
@@ -260,7 +264,7 @@ li {
 .inner {
     width: 900px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: hidden; */
 }
 
 .box {
@@ -274,6 +278,7 @@ li {
     padding: 10px;
     margin: 20px 20px 0 0;
     display: inline-flexbox;
+    cursor: pointer;
 }
 
 .box:hover {
@@ -307,6 +312,7 @@ span {
     display: flex;
     color: grey;
     margin: 10px 0px;
+    cursor:pointer;
 }
 
 span:hover {
@@ -353,13 +359,14 @@ nav:hover {
 }
 
 .footer {
-    height: 78px;
+    height: 75px;
     width: auto;
     background: linear-gradient(rgb(222, 76, 154), rgb(168, 121, 200), rgb(82, 82, 214));
     color: white;
     border: none;
     padding: 1px 15px;
     margin-top: 5px;
+    cursor:pointer;
 }
 
 header>h4 {
@@ -390,4 +397,7 @@ h2 {
     width: 130px;
     margin-top: 13px;
     font-size: 18px;
+}
+button{
+    cursor: pointer;
 }
